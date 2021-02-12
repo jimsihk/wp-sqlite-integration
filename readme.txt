@@ -1,17 +1,17 @@
 === SQLite Integration ===
-Contributors: kjmtsh
+Contributors: kjmtsh, aaemnnosttv, jglhelias, rpeyron, ethanpil
 Plugin Name: SQLite Integration
-Plugin URI: http://dogwood.skr.jp/wordpress/sqlite-integration/
+Plugin URI: https://github.com/ethanpil/wp-sqlite-integration
 Tags: database, SQLite, PDO
-Author: Kojima Toshiyasu
+Author: 
 Author URI: http://dogwood.skr.jp/
 Requires at least: 3.3
-Tested up to: 4.1.1
+Tested up to: 5.6.1
 Stable tag: 1.8.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SQLite Integration is the plugin that enables WordPress to use SQLite. If you want to build a WordPress website with it, this plugin is for you.
+SQLite Integration is the plugin that enables WordPress to use SQLite. If you want to build a WordPress website with it, this plugin is for you. This is an update of Kojima Toshiyasu's plugin, with some patches and pull requests merged in.
 
 == Description ==
 
@@ -167,6 +167,9 @@ WordPress 4.1.1 compatibility is checked and some bugs are fixed. Upgrade is rec
 == Changelog ==
 
 See also ChangeLog file contained in the archive.
+
+= 1.8X (2021-02-12) =
+* Merge misc patches from various githib forks
 
 = 1.8 (2015-03-06) =
 * Fixed the bug about install process algorithm.
