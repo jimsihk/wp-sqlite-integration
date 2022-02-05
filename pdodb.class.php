@@ -353,4 +353,24 @@ if (!isset($wpdb)) {
 	global $wpdb;
 	$wpdb = new PDODB();
 }
+
+/*
+ * Dummy out mysql_get_server_info()
+ *
+ * WordPress 5.2 added site health which will check database server type and version 
+ * with MySQL function which does not exist in SQLite.
+ */
+function mysql_get_server_info($conn) {
+  return 'SQLite';
+}
+
+/*
+ * Dummy out mysql_get_client_info()
+ *
+ * WordPress 5.2 added site health which will check database client version with 
+ * MySQL function which does not exist in SQLite.
+ */
+function mysql_get_client_info() {
+  return null;
+}
 ?>
