@@ -61,7 +61,7 @@ For more detailed instruction, please visit [SQLite Integration](http://dogwood.
 = Preparation =
 
 1. Download the latest WordPress archive and this plugin. And expand them on your machine.
-2. Move sqlite-integration folder to wordpress/wp-content/plugins folder.
+2. Rename folder as sqlite-integration and move to wordpress/wp-content/plugins folder.
 3. Copy db.php file in sqlite-integratin folder to wordpress/wp-content folder.
 4. Rename wordpress/wp-config-sample.php to wordpress/wp-config.php.
 
