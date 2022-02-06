@@ -1,5 +1,5 @@
 === SQLite Integration ===
-Contributors: kjmtsh, aaemnnosttv, jglhelias, rpeyron, ethanpil
+Contributors: kjmtsh, aaemnnosttv, jglhelias, rpeyron, ethanpil, jimsihk
 Plugin Name: SQLite Integration
 Plugin URI: https://github.com/ethanpil/wp-sqlite-integration
 Tags: database, SQLite, PDO
@@ -168,8 +168,11 @@ WordPress 4.1.1 compatibility is checked and some bugs are fixed. Upgrade is rec
 
 See also ChangeLog file contained in the archive.
 
+= 1.8X (2022-02-06) =
+* Fix WordPress site-health page error
+
 = 1.8X (2021-02-12) =
-* Merge misc patches from various githib forks
+* Merge misc patches from various Github forks
 
 = 1.8 (2015-03-06) =
 * Fixed the bug about install process algorithm.
